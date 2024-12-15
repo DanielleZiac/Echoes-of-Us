@@ -51,6 +51,13 @@
 
 ---
 
+## Developed/Designed By:
+- Danielle Ziac Abril
+- 22-07924
+As a requirement to the course: **Human-Computer Interaction (CS 321)**
+- Course Facilitator: Mrs. Lanie Palad
+
+---
 Feel free to leave your message, explore the map, and start your journey on **Echoes of Us** today!
 
 
