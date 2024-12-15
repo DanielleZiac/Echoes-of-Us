@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Echoes of Us">
+  <title>Echoes of Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&family=Luckiest+Guy&family=Lunasima&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+              <img src="assets/logo.png" alt="Logo" />
+            </a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Browse</a></li>
+            <li><a href="index.html">Messages</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <div class="container">
+        <div class="sign-up-container" style="margin-left: 0; margin-bottom:90px; margin-right:500px; margin-top:90px;">
+            <h1>Sign Up</h1>
+            <h6>New here? Sign up to connect, share, and save!</h6>
+            <form action="signup.php" method="post">
+                <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                </div><div>
+                <label for="email" style="margin-right: 70px;">Email</label>
+                <input type="email" id="email" name="email" required>
+                </div><div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p style="font-size: 12px; margin: 0px; margin-left: 210px;">Already Have an Account? <a href="login.html">log in</a></p>
+        </div>
+        <img src="assets/bg_img7.png" alt="Background design 7" class="bg-image7" style="left:8%; top:77%;">
+        <img src="assets/bg_img8.png" alt="Background design 8" class="bg-image8" style="left:55%;">
+    </div>
+    </main>
+  <footer>
+    <p>Developed by Danielle Ziac Abril</p>
+    <p style="margin-bottom: 10px;">as a requirement to the course Human-Computer Interaction</p>
+    <p><b>For academic purposes only | &copy; All rights reserved</b></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
