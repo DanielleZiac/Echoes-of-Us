@@ -29,10 +29,11 @@
 
   <!-- Main Content Section -->
   <main>
-    <div class="container">
-        <div class="sign-up-container">
+    <div id="signup" class="container">
+        <div class="sign-up-container" id="signup-contatainer">
             <h1>Log In</h1>
             <h6>Welcome back! Log in to continue where you left off.</h6>
+
             <form action="login.php" method="post">
                 <div>
                 <label for="username">Username</label>
@@ -43,9 +44,9 @@
                 </div>
                 <button type="submit">Login</button>
             </form>
-            <p style="font-size: 12px; margin: 0px; margin-left: 210px;">Don't have an account yet? <a href="signup.html">Sign up</a></p>
+            <p id="signup-link">Don't have an account yet? <a href="signup.html">Sign up</a></p>
         </div>
-        <img src="assets/bg_img7.png" alt="Background design 7" class="bg-image7">
+        <img src="assets/bg_img7.png" alt="Background design 7" class="bg-image7" id="login">
         <img src="assets/bg_img8.png" alt="Background design 8" class="bg-image8">
     </div>
     </main>
