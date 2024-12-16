@@ -54,7 +54,7 @@
 ## Developed/Designed By:
 - Danielle Ziac Abril
 - 22-07924
-  As a requirement to the course: **Human-Computer Interaction (CS 321)**
+- As a requirement to the course: **Human-Computer Interaction (CS 321)**
 - Course Facilitator: Mrs. Lanie Palad
 
 ---
